@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>变量声明和赋值</title>
+  </head>
+  <body>
+    <script>
+      var web = "变量声明";
+      //   连续声明
+      var web1 = "变量声明1",
+        web2 = "变量声明2",
+        web3 = "变量声明3";
+
+      var web1 = (web2 = web3 = "变量 声明4");
+
+      // 变量类型由数据决定（弱类型）
+      var web4 = "sad";
+      console.log(typeof web4);
+      web4 = 99;
+      console.log(typeof web4);
+      web4 = {};
+      console.log(typeof web4);
+
+      // 窗口名
+      console.log(name);
+      console.log(window.name);
+    </script>
+  </body>
+</html>
